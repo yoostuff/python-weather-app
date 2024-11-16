@@ -1,6 +1,6 @@
 #Managing Python Packages
 --------
-A really simple and straight forard Python script that provieds Real-Time Weather Updates using Open Weather Map Services. Register for an API Key here: https://openweathermap.org/api. Requires the following python libraries to be installed, flask==3.0.3 and requests==2.32.3 
+A really simple and straight forward Python script that provieds Real-Time Weather Updates using Open Weather Map Services. Register for an API Key here: https://openweathermap.org/api. Requires the following python libraries to be installed, flask==3.0.3 and requests==2.32.3 
 
 1.) Create Python Environments
 python -m venv .venv
