@@ -23,3 +23,6 @@ python -m pip freeze > requirements.txt
 python -m pip list or 
 cat requirements.txt (depending on terminal and os in use)
 
+5.) Run python app.py
+
+------
