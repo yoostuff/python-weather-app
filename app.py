@@ -17,7 +17,7 @@ class WeatherData:
                 f"Weather: {self.description}")
 
 def fetch_weather_data(city):
-    api_key = "register with Open Weather Map Services and insert you API here"
+    api_key = "RActivate API Key with Open Weather Map Services and insert here"
     url = f"http://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}&units=metric"
     response = requests.get(url)
     data = response.json()
@@ -37,7 +37,7 @@ def index():
     return render_template_string(f"""
         <html>
         <head>
-            <link rel="stylesheet" type="text/css" href="/static/styles.css">
+            <link rel="stylesheet" type="text/css" href="styles.css">
         </head>
         <body>
             <h1>Weather Information</h1>
