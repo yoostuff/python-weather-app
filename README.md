@@ -11,7 +11,7 @@ On Windows run:
 On MacOs run:
 source .venv\Scripts\activate
 
-2.) Install Python Packages
+2.) Install Python Packages: 
 python -m pip install flask
 #
 python -m pip install requests
